@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    line-height: 1.4;
+    box-sizing: border-box;
+    text-align: center;
+}
+#beachfront {
+    height: 100vh;
+    background-image: url(../images/beach\ image\ 1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 35vh;
+}
+h1 {
+    color: #926239;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+#section-p {
+    color: #926239;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    border: none;
+    color: #926239;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: #926239;
+    border: 1px #926239 solid;
+}
+button:hover {
+    background-color: #926239;
+    color: #ffffff;
+}
+.section-a div:nth-of-type(1) {
+    background-color: #926239;
+    color: white;
+    padding: 20px;
+    margin: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+.section-a div:nth-of-type(2) {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #926239;
+    line-height: 1.2;
+}
+#section-b div:nth-of-type(2) {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #926239;
+    display: inline-block;
+}
+#hor-div {
+    display: inline-block;
+    width: 33.1%;
+    text-align: left;
+    background-color: #926239;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mid-div {
+    background-color: #ffffff;
+    color: #926239;
+    display: inline-block;
+    width: 33.1%;
+}
